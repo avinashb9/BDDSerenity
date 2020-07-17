@@ -9,8 +9,9 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
 @CucumberOptions(
 		plugin={"html:target/cucumber-html-report"},
 		features="Features",
-		tags={"@loginFeature"},
-		dryRun = false
+		tags={"@DataDriven"},
+		dryRun = false,
+		monochrome = true
 		)
 public class TestRunner {
 
