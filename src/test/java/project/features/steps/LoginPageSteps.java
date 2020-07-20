@@ -57,5 +57,22 @@ public class LoginPageSteps {
 	public void user_should_see_Home_Page(String arg1) {
 		oLoginPageStepDef.validate_Home_Page_Title(arg1);
 	}
+	
+	@Given("^User navigated to URL$")
+	public void user_navigated_to_URL() {
+		oLoginPageStepDef.navigate_URL();
+	}
+
+	@When("^I complete action$")
+	public void i_complete_action() {
+	    // Write code here that turns the phrase above into concrete actions
+//	    throw new PendingException();
+	}
+
+	@Then("^I validate the outcomes$")
+	public void i_validate_the_outcomes() {
+	    // Write code here that turns the phrase above into concrete actions
+//	    throw new PendingException();
+	}
 
 }

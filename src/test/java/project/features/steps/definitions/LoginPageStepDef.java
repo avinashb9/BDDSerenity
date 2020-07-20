@@ -51,4 +51,9 @@ public class LoginPageStepDef extends ScenarioSteps{
 		String sActTitle = oLoginPage.getTitle();
 		Assert.assertTrue("Title is not as expected. Expected: "+sTitleText+" Actual: "+sActTitle, sActTitle.equals(sTitleText));
 	}
+	
+	@Step
+	public void navigate_URL(){
+		oLoginPage.navigateEnvURL();
+	}
 }

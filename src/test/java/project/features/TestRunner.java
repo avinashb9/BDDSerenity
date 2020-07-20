@@ -9,7 +9,7 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
 @CucumberOptions(
 		plugin={"html:target/cucumber-html-report"},
 		features="Features",
-		tags={"@DataDriven"},
+		tags={"@tag1"},
 		dryRun = false,
 		monochrome = true
 		)

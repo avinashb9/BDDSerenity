@@ -78,6 +78,7 @@
 			<version>1.6.1</version>
 			<scope>test</scope>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/oracle/ojdbc6 -->
   </dependencies>
   <profiles>
 		<profile>
